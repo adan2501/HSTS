@@ -1,0 +1,106 @@
+
+/* Add to all AnchorPanes */
+.* {
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.root {
+    -fx-pref-width: 800;
+    -fx-pref-height: 600;
+}
+
+/* Login TextField */
+.login-text {
+    -fx-font-size: 20;
+    -fx-background-radius: 30;
+}
+
+/* Login button */
+.login-button {
+    -fx-text-fill: white; /* Set the text color */
+    -fx-font-size: 25px; /* Set the font size */
+    -fx-background-color: #91c79c;
+    -fx-padding: 10px 20px 10px 20px;
+}
+
+.login-button:hover {
+    -fx-background-color: #79a682;
+    -fx-cursor: hand;
+}
+
+/* Menu Button */
+.menu-button {
+    -fx-font-size: 20;
+    -fx-pref-height: 80;
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: black;
+}
+
+.menu-button:hover {
+    -fx-background-color: E3F4F4;
+    -fx-cursor: hand;
+}
+
+/* Menu Logout Button */
+.menu-logout-button {
+    -fx-font-size: 28;
+    -fx-text-fill: white;
+    -fx-background-color: F67280;
+}
+
+.menu-logout-button:hover {
+    -fx-background-color: C06C84;
+    -fx-cursor: hand;
+}
+
+/* ListView */
+.list-view-item {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: black;
+    -fx-alignment: center-left;
+    -fx-padding: 5px;
+    -fx-background-color: transparent;
+}
+
+.list-view-item-selected {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: transparent;
+    -fx-alignment: center-left;
+    -fx-padding: 5px;
+    -fx-background-color: F5EFE7;
+}
+
+.list-view-item-selected {
+    -fx-cursor: hand;
+}
+
+.list-view-item:hover {
+    -fx-background-color: F5EFE7;
+    -fx-cursor: hand;
+}
+
+/* combo box */
+.combo-box {
+    -fx-alignment: center-left;
+    -fx-background-radius: 30;
+    -fx-padding: 0 5 0 5;
+    -fx-font-size: 15;
+    -fx-background-color: D2E9E9;
+}
+
+/* app-button */
+.app-button {
+    -fx-background-radius: 30;
+    -fx-border-width: 2;
+    -fx-border-radius: 30;
+    -fx-border-color: black;
+    -fx-background-color: C4DFDF;
+    -fx-padding: 10px;
+    -fx-font-size: 20;
+}
+
+.app-button:hover {
+    -fx-background-color: E3F4F4;
+    -fx-cursor: hand;
+}
